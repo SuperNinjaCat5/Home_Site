@@ -1,5 +1,3 @@
-
-
 <svelte:head>
   <title>SuperNinjaCat5.us</title>
   <link rel="stylesheet" href="/fonts.css" />
@@ -50,7 +48,7 @@
     </svg>
   </div>
     <div style="display: flex; justify-content: center; margin-top: 2rem;">
-      <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22;">
+      <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22; margin-bottom: 2rem;">
         Hi, I'm @SuperNinjaCat5<br>
         <br>
         - 🐍 Am speak Python and English  <br>
@@ -75,7 +73,7 @@
         ---<br>
         <br>
         Get in Touch<br><br>
-        📫 How to reach me: contact@superninjacat5.us
+        📫 How to reach me: contact (at) superninjacat5.us
         <br><br>
         ---
       </p>
