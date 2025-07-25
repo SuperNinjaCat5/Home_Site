@@ -74,10 +74,9 @@
         <br>
         ---<br>
         <br>
-        Get in Touch<br>
-        <br>
+        Get in Touch<br><br>
         📫 How to reach me: contact@superninjacat5.us
-        <br>
+        <br><br>
         ---
       </p>
     </div>
