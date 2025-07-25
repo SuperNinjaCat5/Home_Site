@@ -132,11 +132,11 @@
       <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22; margin-bottom: 2rem;">
         Hi, I'm @SuperNinjaCat5<br>
         <br>
-        - Am speak Python and English  <br>
+        - Am speak Python and <a href="https://www.youtube.com/watch?v=tbXfYeqLufY">English</a>  <br> <!--Easter Egg :o-->
         - Proud vibe coder  <br>
         - Big fan of video games <br> 
         - Unbiasedly believes cats are the best animals <br>  
-        - <a href="/weazered">Plays 🎺 but big and long</a>  <br>
+        - <a href="/weazered">Plays 🎺 but big and long</a>  <br> <!--Easter Egg :o-->
         <br>
         ---<br>
         <br>
@@ -153,7 +153,7 @@
         <br>
         ---<br>
         <br>
-        Get in <a href="/noway">Touch</a><br><br>
+        Get in <a href="/noway">Touch</a><br><br> <!--Easter Egg :o-->
         How to reach me: contact (at) superninjacat5.us
         <br><br>
         ---
