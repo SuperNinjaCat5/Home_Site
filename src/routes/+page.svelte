@@ -28,13 +28,10 @@
     height: 100vh;
     z-index: -1;
   }
-    @keyframes scrollLoop {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%); /* Change if width cuz math */
-    }
+
+  @keyframes scrollLoop {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* changed from -100% */
   }
 
   .scroll-wrapper {
@@ -42,29 +39,75 @@
     width: 100vw;
     border: 2px solid lime;
     margin-top: 2rem;
+    padding: 1rem 0; 
   }
 
   .scroll-content {
     display: flex;
-    animation: scrollLoop 20s linear infinite;
+    animation: scrollLoop 30s linear infinite;
+    will-change: transform;
+    white-space: nowrap;
   }
 
   .scroll-content p {
-    min-width: 300px;
-    margin: 1rem;
-    padding: 1.5rem 2rem;
+    display: inline-block;    
+    min-width: 320px;        
+    margin: 0 1rem;           
+    padding: 1rem 1.5rem;    
     background-color: #001a00;
     color: #00ff22;
     border-radius: 12px;
-    box-shadow: 0 0 15px #00ff22aa;
+    box-shadow: 0 0 8px #00ff2280;  
     border: 1.5px solid #00ff22;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;         
     line-height: 1.6;
     white-space: normal;
     flex-shrink: 0;
+    transition: transform 0.3s ease;  
   }
+
+  .scroll-content p:hover {
+  transform: scale(1.05);  
+  }
+
+
 </style>
+
+<script lang=ts>
+  let projects = [
+    {
+      link: "https://summer.hackclub.com/projects/4631",
+      title: "Ear Trainer",
+      desc: "Helps me recognize musical notes without googling sheet music.",
+    },
+    {
+      link: "https://summer.hackclub.com/projects/7915",
+      title: "Quackcer Backend",
+      desc: "A script that lets you control a computer via Discord commands. :hackerman:",
+    },
+    {
+      link: "https://summer.hackclub.com/projects/1117",
+      title: "Terminal Tamagotchi",
+      desc: "Take care of a pet in the terminal or it'll die",
+    },
+    {
+      link: "https://summer.hackclub.com/projects/332",
+      title: "Tic Tac Tkinter",
+      desc: "A basic Python tic-tac-toe game with GUI.",
+    },
+    {
+      link: "https://github.com/niiccoo2/city-gusser/",
+      title: "City Guesser",
+      desc: "Guess the city using AI blurbs and images.",
+    },
+    {
+      link: "https://github.com/SuperNinjaCat5/SuperNinjaCat5",
+      title: "Project ?",
+      desc: "More to come soon :o",
+    },
+  ];
+</script>
 
 <div class="background"></div>
 
@@ -97,7 +140,7 @@
         <br>
         About Me <br>
         <br>
-        I'm passionate about coding and gaming, I enjoy learning useless things (3.141592653589793238462643383279502). Currently focused on Python projects and getting free stuff from hcb lol.
+        I'm passionate about coding and gaming, I enjoy learning useless things (3.141592653589793238462643383279502). Currently focused on Python projects and getting free stuff from hackclub lol.
         <br>
         ---
         <br>
@@ -114,56 +157,13 @@
         ---
       </p>
     </div>
-    <div class="scroll-wrapper" style="margin-bottom: 4rem;">
-      <div class="scroll-content">
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 1<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 2<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 3<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 4<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 5<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 6<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 7<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 8<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 1<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 2<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 3<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 4<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 5<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 6<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 7<br>---<br>BLAH BLAH BLAH</p>
-        </a>
-        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
-          <p>Project 8<br>---<br>BLAH BLAH BLAH</p>
-        </a>
+    <div class="scroll-container">
+      <div class="scroll-content" style="margin-bottom: 4rem; margin-top: 1rem;">
+        {#each projects.concat(projects) as project}
+          <a href={project.link} target="_blank" class="project-card">
+            <p><strong>{project.title}</strong><br />---<br />{project.desc}</p>
+          </a>
+        {/each}
       </div>
     </div>
     <footer>
