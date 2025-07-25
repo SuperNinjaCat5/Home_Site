@@ -9,6 +9,24 @@
 </svelte:head>
 
 <style>
+  .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000000;
+  }
+    .show {
+      display: block;
+    }
+
+    .hide {
+      display: none;
+    }
     .glitch {
       animation: glitch 2s infinite;
     }
