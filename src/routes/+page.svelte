@@ -47,7 +47,7 @@
     </svg>
   </div>
     <div style="display: flex; justify-content: center; margin-top: 2rem;">
-      <p style="text-align: center; max-width: 1500px; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22;">
+      <p style="text-align: center; max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22;">
         Big paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraph
         Big paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraph
         Big paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraphBig paragraph
