@@ -160,7 +160,7 @@
     <div class="scroll-container">
       <div class="scroll-content" style="margin-bottom: 4rem; margin-top: 1rem;">
         {#each projects.concat(projects) as project}
-          <a href={project.link} target="_blank" class="project-card">
+          <a href={project.link} target="_blank" class="project-card"> <!--Why cant i just past <p> 1000 times :( i hate svelte-->
             <p><strong>{project.title}</strong><br />---<br />{project.desc}</p>
           </a>
         {/each}
