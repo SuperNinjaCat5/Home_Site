@@ -133,7 +133,7 @@
 
 <div>
   <div style="display: flex; justify-content: center; margin-top: 2rem; overflow: hidden;">  <!-- SuperNinjaCat5.us title -->
-    <svg viewBox="0 0 500 80" width="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" class="glitch">
+    <svg viewBox="0 0 500 80" width="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" class="glitch" style="overflow: hidden;">
         <defs>
           <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
             <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00ff22" flood-opacity="0.8"/>
@@ -147,7 +147,7 @@
     </svg>
   </div>
     <div style="display: flex; justify-content: center; margin-top: 2rem;">
-      <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22; margin-bottom: 2rem;">
+      <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22; margin-bottom: 2rem; tyle=overflow: hidden;">
         Hi, I'm @SuperNinjaCat5<br>
         <br>
         - Am speak Python and <a href="https://www.youtube.com/watch?v=tbXfYeqLufY">English</a>  <br> <!--Easter Egg :o-->
@@ -177,7 +177,7 @@
         ---
       </p>
     </div>
-    <div class="scroll-container">
+    <div class="scroll-container" style="overflow: hidden;">
       <div class="scroll-content" style="margin-bottom: 4rem; margin-top: 1rem;">
         {#each projects.concat(projects) as project}
           <a href={project.link} target="_blank" class="project-card"> <!--Why cant i just past <p> 1000 times :( i hate svelte-->
