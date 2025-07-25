@@ -28,6 +28,42 @@
     height: 100vh;
     z-index: -1;
   }
+    @keyframes scrollLoop {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%); /* Change if width cuz math */
+    }
+  }
+
+  .scroll-wrapper {
+    overflow: hidden;
+    width: 100vw;
+    border: 2px solid lime;
+    margin-top: 2rem;
+  }
+
+  .scroll-content {
+    display: flex;
+    animation: scrollLoop 20s linear infinite;
+  }
+
+  .scroll-content p {
+    min-width: 300px;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: #001a00;
+    color: #00ff22;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ff22aa;
+    border: 1.5px solid #00ff22;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    white-space: normal;
+    flex-shrink: 0;
+  }
 </style>
 
 <div class="background"></div>
@@ -51,10 +87,10 @@
       <p style="max-width: 80%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22; margin-bottom: 2rem;">
         Hi, I'm @SuperNinjaCat5<br>
         <br>
-        - 🐍 Am speak Python and English  <br>
-        - 🔥 Proud vibe coder  <br>
-        - 🎮 Big fan of video games <br> 
-        - 🐱 Unbiasedly believes cats are the best animals <br>  
+        - Am speak Python and English  <br>
+        - Proud vibe coder  <br>
+        - Big fan of video games <br> 
+        - Unbiasedly believes cats are the best animals <br>  
         - Plays 🎺 but big and long  <br>
         <br>
         ---<br>
@@ -73,9 +109,66 @@
         ---<br>
         <br>
         Get in Touch<br><br>
-        📫 How to reach me: contact (at) superninjacat5.us
+        How to reach me: contact (at) superninjacat5.us
         <br><br>
         ---
       </p>
     </div>
+    <div class="scroll-wrapper" style="margin-bottom: 4rem;">
+      <div class="scroll-content">
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 1<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 2<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 3<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 4<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 5<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 6<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 7<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 8<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 1<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 2<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 3<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 4<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 5<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 6<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 7<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+        <a href="https://github.com/SuperNinjaCat5/SuperNinjaCat5" style="text-decoration: none; color: inherit;" target="_blank">
+          <p>Project 8<br>---<br>BLAH BLAH BLAH</p>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <p style="display: flex; justify-content: center; width: 100%; color: #00ff22; background-color: #001a00; padding: 1.5rem 2rem; border-radius: 12px 12px 0 0; box-shadow: 0 0 15px #00ff22aa; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; line-height: 1.6; border: 1.5px solid #00ff22;">
+        Made by <span class="hover:animate-bounce", style="margin-left: 0.35rem;">SuperNinjaCat5</span>!
+      </p>
+    </footer>
 </div>
