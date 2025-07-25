@@ -91,7 +91,7 @@
         - Proud vibe coder  <br>
         - Big fan of video games <br> 
         - Unbiasedly believes cats are the best animals <br>  
-        - Plays 🎺 but big and long  <br>
+        - <a href="/weazered">Plays 🎺 but big and long</a>  <br>
         <br>
         ---<br>
         <br>
@@ -108,7 +108,7 @@
         <br>
         ---<br>
         <br>
-        Get in Touch<br><br>
+        Get in <a href="/noway">Touch</a><br><br>
         How to reach me: contact (at) superninjacat5.us
         <br><br>
         ---
